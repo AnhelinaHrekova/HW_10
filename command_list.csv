@@ -1,0 +1,44 @@
+    1  git config --global user.name "AnhelinaHrekova"
+    2  git config --global user.email "anhelina.hrekova@gmail.com"
+    3  git clone https://github.com/AnhelinaHrekova/HW_10.git
+    4  cd HW_10
+    5  ls
+    6  ls -a
+    7  touch text_ignore.txt
+    8  ls
+    9  nano .gitignore
+   10  cat .gitignore
+   11  git status .girignore
+   12  git status .gitignore
+   13  git status
+   14  git add .
+   15  git status
+   16  git commit -m "added new file"
+   17  git status
+   18  git log
+   19  git chrckout main
+   20  git checkout main
+   21  git log
+   22  touch main_test.txt
+   23  git add .
+   24  git commit -m "added main_test.txt"
+   25  git checkout main
+   26  git log
+   27  git checkout -b second_branch
+   28  touch develop_test.txt
+   29  ls -l
+   30  git status
+   31  git add .
+   32  git status
+   33   git commit -m "task_3"
+   34  nano develop_test.txt 
+   35  cat develop_test.txt 
+   36  git status
+   37  git add .
+   38   git commit -m "added just a small change"
+   39  git checkout main
+   40  git merge second_branch 
+   41  git status
+   42  git log
+   43  command_list.csv
+   44  history > command_list.csv
